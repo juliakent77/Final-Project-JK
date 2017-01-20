@@ -1,0 +1,54 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+
+.drink-options {
+}
+
+.alc {
+}
+
+.square {
+
+}
+
+.content {
+  background-color: #F7F7F5;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.img-responsive {
+  display: inline;
+}
+
+.img-circle {
+  padding-bottom: 10px;
+}
+
+
+/*  For responsive images */
+/*
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}*/
+
+/* responsive background images
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;  you change this to "contain" if you don't want the images to be cropped 
+    color:#fff;
+}
+
+.img1{
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+}*/
