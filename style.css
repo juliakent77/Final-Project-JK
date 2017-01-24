@@ -50,13 +50,13 @@ nav {
   padding-bottom: 10px;
 }
 
-/*hr {
+hr {
   width: 75%;
   display: block;
   border: 0;
-  border-top: .5px solid black;
+  border-top: .5px solid #13358C;
 }
-*/
+
 h5 {
   letter-spacing: 2px;
   font-weight: 600;
@@ -80,8 +80,13 @@ h3 {
 /*  max-height: 400px;*/
 }
 
-.recipe {
+.text-left {
   text-align: left;
+  margin-left: 4%;
+}
+
+.text-left h3 {
+  margin-top: 3px;
 }
 
 button {
@@ -98,6 +103,17 @@ button {
 
 .button {
   margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #13358C;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 
