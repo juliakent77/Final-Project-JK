@@ -5,11 +5,6 @@
 // An array of my recipes:
 // [{name:'Old Fashioned', image:'src="images/drank.jpg"', drinkType: 'Whiskey', flavor: 'sweet', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'}]
 
-
-
-
-
-
 // // Random Int function
 // var getRandomInt = function(min, max) {
 //   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -28,20 +23,15 @@
 //   checkWinner();
 // }
 
-// var whiskeyButton = document.getElementById('whiskey_button');
-
-// whiskeyButton.addEventListener('click', function() {
-//   console.log ('Hi');
-// })
-
-// var whiskeyButton = $( "#whiskey_button" )
-
-// $('whiskeyButton').click(function(event) {
-//   console.log('Clicked!');
-// });
 
 $(".alc").click(function(event) {
     var elem = $(this);
     var drinkType = elem.attr('drink');
     console.log(drinkType);
+});
+
+$(".taste").click(function(event) {
+    var elem = $(this);
+    var flavor = elem.attr('flavor');
+    console.log(flavor);
 });

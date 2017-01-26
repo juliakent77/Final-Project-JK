@@ -11,9 +11,6 @@ button {
 .drink-options {
 }
 
-.alc {
-}
-
 .square {
 
 }
@@ -111,6 +108,10 @@ button {
 button:hover {
     background-color: #13358C;
     color: #F9F6F2;
+}
+
+button:focus {
+  outline:0;
 }
 
 h2 {
