@@ -3,7 +3,7 @@
 
 
 // An array of my recipes:
-// [{name:'Old Fashioned', image:'src="images/drank.jpg"', spirit: 'Whiskey', flavor: 'sweet', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'}]
+// [{name:'Old Fashioned', image:'src="images/drank.jpg"', drinkType: 'Whiskey', flavor: 'sweet', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'}]
 
 
 
@@ -40,6 +40,8 @@
 //   console.log('Clicked!');
 // });
 
-$("whiskey_button").click(function() {
-    console.log('clicked');
+$(".alc").click(function(event) {
+    var elem = $(this);
+    var drinkType = elem.attr('drink');
+    console.log(drinkType);
 });

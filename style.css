@@ -78,6 +78,7 @@ h3 {
 
 .header-img {
   width: 100%;
+  overflow: hidden;
 /*  max-height: 400px;*/
 }
 
